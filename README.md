@@ -8,6 +8,7 @@ React Full Stack Boilerplate bootstrapped with Create React App and Express Gene
     - [Development Mode](#development-mode)
     - [Production Mode](#production-mode)
   - [Quick Start](#quick-start)
+  - [Build for Production](#build-for-production)
   - [Work in Progress](#work-in-progress)
 
 ## Getting Started
@@ -33,6 +34,22 @@ npm run setup
 
 # Start development servers
 npm run dev
+```
+
+## Build for Production
+```bash
+# Run build script
+npm run build
+
+# Go into 'build' directory
+cd build
+
+# For testing only
+npm install
+
+npm start
+
+Open browser with http://localhost:3000
 ```
 
 ## Work in Progress
