@@ -5,9 +5,9 @@ RUN apk update && apk upgrade && \
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-COPY ./app-service/package.json /usr/src/app/
-RUN npm install --production && npm cache clean --force 
-COPY ./app-service/ /usr/src/app
+COPY ./build/package.json /usr/src/app/
+RUN npm install --production 
+COPY ./build/ /usr/src/app
 ENV NODE_ENV prod
 ENV PORT 80
 EXPOSE 80
