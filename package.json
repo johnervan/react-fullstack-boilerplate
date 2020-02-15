@@ -1,0 +1,27 @@
+{
+  "name": "react-fullstack-boilerplate",
+  "version": "1.0.0",
+  "description": "React Express Fullstack Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "sh ./scripts/setup.sh",
+    "dev:client": "cd app && npm start",
+    "dev:server": "cd app-service && npm run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build": "sh ./scripts/build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnervan/react-fullstack-boilerplate.git"
+  },
+  "author": "Johnervan Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnervan/react-fullstack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/johnervan/react-fullstack-boilerplate#readme",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
