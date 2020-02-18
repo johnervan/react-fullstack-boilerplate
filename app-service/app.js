@@ -24,7 +24,7 @@ app.get('/version', (req, res) => {
   })
 })
 
-app.use('/users', usersRouter)
+app.use('/api/users', usersRouter)
 
 app.get('*', (req, res) => {
   res.sendFile(path.resolve('public/index.html'))

@@ -23,5 +23,6 @@
   "homepage": "https://github.com/johnervan/react-fullstack-boilerplate#readme",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "dependencies": {}
 }
