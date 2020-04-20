@@ -3,7 +3,7 @@ echo 'Installing node_modules in main directory'
 npm install
 
 echo 'Installing node_modules in app directory'
-cd ./app
+cd ../app
 npm install
 
 echo 'Installing node_modules in app-service directory'
