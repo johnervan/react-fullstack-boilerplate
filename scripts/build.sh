@@ -1,8 +1,6 @@
 #!/bin/sh
 set -e
 
-cd ..
-
 echo "Step 0: Clean up existing deployment package"
 rm -rf ./build || true
 mkdir build
